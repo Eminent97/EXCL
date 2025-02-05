@@ -1,0 +1,226 @@
+@media (min-width: 768px){
+    .box1{
+        flex: 1 1   30%;
+    }
+}
+@media (max-width: 768px){
+    .box1{
+        flex: 1 1   30%;
+    }
+}
+@media (min-width: 480px){
+    .box1{
+        flex: 1 1   30%;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+}
+.slider{
+    display: flex;
+    flex-wrap: wrap;
+}
+.headimage{
+    background-color: blanchedalmond;
+    padding: 0px;
+    margin: 10;
+    height: 500px;
+    width: 100%;
+}
+
+.headbox{
+    background-color: blue;
+    color: beige;
+    padding: 20px;
+    margin: 0;
+    flex: 100%;
+    position: sticky;
+    width: 100%;
+}
+
+.mid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1{
+    background-color: aquamarine;
+    padding: 40px;
+    margin: 0px;
+    flex: 1 1 20%;
+}
+
+.box2{
+    background-color: blueviolet;
+    padding: 40px;
+    margin: 0px;
+    flex: 1 1 20%;
+}
+
+.cbox1{
+    background-color: brown;
+    color: aliceblue;
+    padding: 80px;
+    margin: px;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fbox1{
+    background-color:brown;
+    color:azure;
+    padding: 40px;
+    margin: 0px;
+    flex: 20%;
+}
+
+.fbox2{
+    background-color:blue;
+    color:azure;
+    padding: 40px;
+    margin: 0px;
+    flex: 20%;
+}
+
+.fbox3{
+    background-color:brown;
+    color:azure;
+    padding: 40px;
+    margin: 0px;
+    flex: 20%;
+}
+.menu{
+    flex: 1 1 20%;
+    float: right;
+    padding: 30px;
+    color: beige;
+}
+
+.logo{
+    flex: 1 1 20%;
+    float:left;
+}
+
+.schlname{
+    flex: 1 1 50%;
+    font-size:x-large;
+    padding: 20px;
+    float: left;
+}
+
+a:link{
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+a:visited{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+a:active{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.Mission{
+    background-color: blue;
+    color: aquamarine;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+}
+.Vission{
+    display: flex;
+    flex-wrap: wrap;
+}
+.scbuil{
+    background-color: yellow;
+    flex: 1 1 20%;
+}
+.MisStat{
+    background-color: bisque;
+    flex: 1 1 60%;
+    text-align: center;
+    padding: 30px;
+    font-size: large;
+}
+.NEWS{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgnews{
+    background-color: yellow;
+    flex: 1 1 25%;
+}
+.ImgSent{
+    background-color: bisque;
+    flex: 1 1 60%;
+    text-align: center;
+    padding: 30px;
+}
+.foot2{
+    display: flex ;
+    flex-wrap: wrap;
+}
+.ftend{
+    background-color: bisque;
+    flex: 100%;
+    text-align: center;
+}
+/* About Page*/
+.Img{
+    background-color: yellow;
+    flex: 1 1 20%;
+}
+.Img1{
+    background-color: bisque;
+    flex: 1 1 20%;
+    text-align: center;
+    padding: 20px;
+}
+.Img2{
+    background-color: rgb(194, 235, 15);
+    flex: 1 1 20%;
+    text-align: center;
+    padding: 20px;
+}
+.Img3{
+    background-color: rgb(247, 243, 24);
+    flex: 1 1 20%;
+    text-align: center;
+    padding: 20px;
+    
+}
+.formbox{
+    background-color: blueviolet;
+    text-align: left;
+    margin: 0px;
+    padding: 20px;
+}
+.MisStat2{
+    background-color: bisque;
+    flex: 1 1 60%;
+    text-align: left;
+    padding: 30px;
+    font-size: large;
+    margin: 30px;
+}
+.news{
+    text-align: center;
+}
